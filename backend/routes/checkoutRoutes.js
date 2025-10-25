@@ -3,7 +3,7 @@ const router = express.Router(); // fixed 'router()' to 'Router()'
 
 const Checkout = require("../models/Checkout");
 const Cart = require("../models/Cart");
-const Product = require("../models/Product");
+const Product = require("../models/product");
 const Order = require("../models/Order");
 
 const { protect } = require("../middleware/authMiddleware");
